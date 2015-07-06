@@ -1,40 +1,40 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://edsu.github.io/iiif-test/manifest.json",
+  "@id": "https://edsu.github.io/mirador-test/manifest.json",
   "@type": "sc:Manifest",
   "label": "test",
   "description": "test test test",
   "attribution": "UMD",
   "sequences": [
     {
-      "@id": "https://edsu.github.io/iiif-test/normal",
+      "@id": "https://edsu.github.io/mirador-test/normal",
       "@type": "sc:Sequence",
       "label":  "page order",
       "canvases": [
         {
-          "@id": "https://edsu.github.io/iiif-test/canvas1",
+          "@id": "https://edsu.github.io/mirador-test/canvas1",
           "@type": "sc:Canvas",
           "label": "Image 1",
           "height": 3467,
           "width": 5117,
           "images": [
             {
-              "@id": "https://edsu.github.io/iiif-test/001",
+              "@id": "https://edsu.github.io/mirador-test/001",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://edsu.gitub.io/iiif-test/001.jpg",
+                "@id": "https://edsu.gitub.io/mirador-test/001.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
-                  "@id": "https://edsu.github.io/iiif-test/001",
+                  "@id": "https://edsu.github.io/mirador-test/001",
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "height": 3467,
                 "width": 5117
               },
-              "on": "https://edsu.github.io/iiif-test/canvas1"
+              "on": "https://edsu.github.io/mirador-test/canvas1"
             }
           ]
         }
