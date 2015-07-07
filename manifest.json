@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://edsu.github.io/mirador-test/manifest.json",
   "@type": "sc:Manifest",
-  "label": "testir",
+  "label": "test",
   "description": "test test test",
   "attribution": "UMD",
   "sequences": [
