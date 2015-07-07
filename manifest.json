@@ -1,25 +1,25 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://127.0.0.1:8080/manifest.json",
+  "@id": "https://edsu.github.io/mirador-test/manifest.json",
   "@type": "sc:Manifest",
   "label": "testir",
   "description": "test test test",
   "attribution": "UMD",
   "sequences": [
     {
-      "@id": "http://127.0.0.1:8080/normal",
+      "@id": "https://edsu.github.io/mirador-test/normal",
       "@type": "sc:Sequence",
       "label":  "page order",
       "canvases": [
         {
-          "@id": "http://127.0.0.1:8080/canvas1",
+          "@id": "https://edsu.github.io/mirador-test/canvas1",
           "@type": "sc:Canvas",
           "label": "Image 1",
           "height": 3467,
           "width": 5117,
           "images": [
             {
-              "@id": "http://127.0.0.1:8080/001",
+              "@id": "https://edsu.github.io/mirador-test/001",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -27,14 +27,14 @@
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
-                  "@id": "http://127.0.0.1:8080/001",
+                  "@id": "https://edsu.github.io/mirador-test/001",
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "height": 1467,
                 "width": 2500
               },
-              "on": "http://127.0.0.1:8080/canvas1"
+              "on": "https://edsu.github.io/mirador-test/canvas1"
             }
           ]
         }
