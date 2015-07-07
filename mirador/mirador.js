@@ -4700,8 +4700,6 @@ window.Mirador = window.Mirador || function(config) {
 
   $.Manifest = function(manifestUri, location) {
 
-    console.log("created manifest with " + manifestUri);
-
     jQuery.extend(true, this, {
       jsonLd: null,
       location: location,
