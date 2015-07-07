@@ -41,7 +41,7 @@
         {
           "@id": "https://edsu.github.io/mirador-test/canvas1",
           "@type": "sc:Canvas",
-          "label": "Image 1",
+          "label": "Image 2",
           "height": 3467,
           "width": 5117,
           "images": [
