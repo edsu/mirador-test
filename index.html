@@ -21,17 +21,26 @@
         "currentWorkspaceType": "singleObject",
         "data": [
           { 
-            "manifestUri": "manifest.json", 
+            "manifestUri": "https://edsu.github.io/mirador-test/manifest.json", 
             "location": "edsu's Github"
           }
         ],
         "windowObjects": [
           {
-            "loadedManifest": "manifest.json",
+            "loadedManifest": "https://edsu.github.io/mirador-test/manifest.json",
             "viewType" : "ImageView", 
             "canvasID": "https://edsu.github.io/mirador-test/canvas1"
           }
         ]
+      });
+      
+      var r = $.ajax({
+        url: "https://edsu.github.io/mirador-test/manifest.json",
+        dataType: "json",
+        async: true
+      });
+      r.done(function(jsonLd) {
+        console.log(jsonLd);
       });
     });
   </script>
