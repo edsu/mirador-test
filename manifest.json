@@ -77,7 +77,7 @@
                   "@id": "https://edsu.github.io/mirador-test/003",
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                }
+                },
               },
               "on": "https://edsu.github.io/mirador-test/canvas3"
             }
