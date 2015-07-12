@@ -29,7 +29,9 @@
                   "@id": "https://edsu.github.io/mirador-test/001",
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                }
+                },
+                "height": 1467,
+                "width": 2500
               },
               "on": "https://edsu.github.io/mirador-test/canvas1"
             }
