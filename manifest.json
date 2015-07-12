@@ -80,7 +80,7 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://edsu.gitub.io/mirador-test/003.jpg",
+                "@id": "https://edsu.gitub.io/mirador-test/003r",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
