@@ -17,6 +17,7 @@
           "label": "Image 1",
           "height": 3467,
           "width": 5117,
+          "thumbnail": "https://edsu.github.io/mirador-test/001/full/108,/0/default.jpg",
           "images": [
             {
               "@id": "https://edsu.github.io/mirador-test/001",
