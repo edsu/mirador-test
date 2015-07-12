@@ -38,6 +38,34 @@
               "on": "https://edsu.github.io/mirador-test/canvas1"
             }
           ]
+        },
+        {
+          "@id": "https://edsu.github.io/mirador-test/canvas2",
+          "@type": "sc:Canvas",
+          "label": "Image 2",
+          "height": 3467,
+          "width": 5117,
+          "thumbnail": "https://edsu.github.io/mirador-test/002/full/108,/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://edsu.github.io/mirador-test/002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://edsu.gitub.io/mirador-test/002.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@id": "https://edsu.github.io/mirador-test/002",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "height": 1467,
+                "width": 2500
+              },
+              "on": "https://edsu.github.io/mirador-test/canvas2"
+            }
+          ]
         }
       ]
     }
